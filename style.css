@@ -93,6 +93,14 @@ ul li {
     color: white;
     border-bottom: 3px solid white;
 }
+
+section {
+     border: none;
+}
+
+div {
+    border: none;
+}
    
 
 
