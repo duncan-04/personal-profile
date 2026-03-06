@@ -33,7 +33,7 @@ html {
 /* Hero Section */
 .hero-section {
     background: linear-gradient(to right, #a51c30, #7a1022);
-    color: white;
+    color: black;
     padding: 80px 20px;
 }
 
