@@ -5,88 +5,76 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact</title>
 
+<!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Your custom styles -->
 <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-<nav class="navbar navbar-dark">
-<div class="container">
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">My Profile</a>
 
-<a class="navbar-brand" href="index.html">My Profile</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav ms-auto">
-
-<li class="nav-item">
-<a class="nav-link" href="about.html">About</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="skills.html">Skills</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="education.html">Education</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="contact.html">Contact</a>
-</li>
-
-</ul>
-</div>
-
-</div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
+<!-- Contact Section -->
 <section class="container mt-5">
 
-<h1 class="text-center mb-4">Contact Me</h1>
+  <h1 class="text-center mb-4">Contact Me</h1>
 
-<div class="row">
+  <div class="row">
 
-<div class="col-md-6">
+    <!-- Contact Info -->
+    <div class="col-md-6">
+      <p>Email: kgatoduncan04@icloud.com</p>
+      <p>Phone: +267 74440465</p>
+      <p>Location: Gaborone, Botswana</p>
+    </div>
 
-<p>Email:kgatoduncan04@icloud.com</p>
-<p>Phone: +267 74440465</p>
-<p>Location: Gaborone, Botswana</p>
+    <!-- Contact Form -->
+    <div class="col-md-6">
+      <form onsubmit="return validateForm()">
 
-</div>
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" id="name" class="form-control">
+        </div>
 
-<div class="col-md-6">
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" id="email" class="form-control">
+        </div>
 
-<form onsubmit="return validateForm()">
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
 
-<div class="mb-3">
-<label class="form-label">Name</label>
-<input type="text" id="name" class="form-control">
-</div>
-
-<div class="mb-3">
-<label class="form-label">Email</label>
-<input type="email" id="email" class="form-control">
-</div>
-
-<button class="btn btn-primary">Send Message</button>
-
-</form>
-
-</div>
-
-</div>
+  </div>
 
 </section>
 
+<!-- Footer -->
 <footer class="text-center mt-5 p-4 bg-dark text-white">
   2026 My Personal Profile
 </footer>
 
+<!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="script.js"></script>
 
