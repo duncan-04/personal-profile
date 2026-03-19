@@ -15,8 +15,14 @@ html {
 
 /* Navbar */
 .navbar {
-    background-color: text dark !important;
+    background-color: #5e0b15 !important;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important;
 }
 
 .navbar-brand {
